@@ -1,0 +1,32 @@
+﻿<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <title>Aiwin Slider Plugin</title>
+    <link href="css/aiwinslider.css" rel="stylesheet" type="text/css" />
+    <script src="js/jquery-1.8.2.min.js" type="text/javascript"></script>
+    <script src="js/aiwinSlider.js" type="text/javascript"></script>
+    <script type="text/javascript">
+        $(document).ready(function () {
+            $(".aiwinSlider").aiwinSlider({
+                nextPrevious: false,
+                paging: true,
+                animationInterval: 2000
+            });
+        });
+    </script>
+</head>
+<body>
+    <div class="aiwinSlider">
+        <ul>
+            <li><img src="images/slides/banner1.jpg" height="247" width="1003" alt="" /></li>
+            <li><img src="images/slides/banner2.jpg" height="247" width="1003" alt="" /></li>
+            <li><img src="images/slides/banner3.jpg" height="247" width="1003" alt="" /></li>
+            <li><img src="images/slides/banner4.jpg" height="247" width="1003" alt="" /></li>
+            <li><img src="images/slides/banner4.jpg" height="247" width="1003" alt="" /></li>
+            <li><img src="images/slides/banner1.jpg" height="247" width="1003" alt="" /></li>
+        </ul>
+        <div class="aiwinClear"></div>
+    </div><!-- End of aiwinSlider plugin -->
+</body>
+</html>
